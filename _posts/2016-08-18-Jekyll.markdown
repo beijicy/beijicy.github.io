@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "如何在github.io上搭建自己的博客"
+date:   2016-08-12 13:53:48 +0800
+categories: jekyll
+---
+曾经用过百度space，后来他把我的文章搞没了
+然后用了sina博客，后来被sina的两套账户系统搞晕了
+之后用了csdn博客，无奈很多时候是网络还是啥原因，访问很慢，而且他们不是把帐号都泄露了...
+
+有了`http://beijicy.github.io`，我再也不用担心在哪里搞博客了
+
+Step 1, 如何搞一个自己的域名，和简单的页面
+  1.1 注册帐号，自己下载一个github desktop更方便使用
+  1.2 新建一个repository, 需要符合这样的条件：username / username.github.io，然后勾选下面的"Initialize this repository with a README" 
+  1.3 在右边的菜单中点击Settings， Update you site对应处点击Automatic page generator，这样可以让github自动生成一个测试页面
+  1.4 选择主题并发布
+  1.5 再次点击Settings，就可以在页面中点击博客地址链接，看到自己的博客首页了。（有时候，可能需要等10分钟）
+
+Step 2, 如何搞定Jekyll
+  2.1 [在你的本机上先搞定Jekyll吧](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/)，这部分我不详述了，靠你了
+  2.2 之后把你在本地部署的那个应用的所有文件，都用github desktop（或者其他的，怎么提交都行）提交到github。保证index.html就在你的域名的那个目录下
+
+Step 3 ENJOY !

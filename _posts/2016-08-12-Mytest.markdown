@@ -2,7 +2,7 @@
 layout: post
 title:  "我的TEST文章!"
 date:   2016-08-12 13:53:48 +0800
-categories: jekyll update
+categories: jekyll 
 ---
 从今天开始，我要使用[http://beijicy.github.io](http://beijicy.github.io)作为我的博客啦！
 
